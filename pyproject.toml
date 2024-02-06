@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "brutalpywebui"
+version = "0.1.0"
+description = "Brutalist realtime web-based UI for hassle-free desktop apps."
+authors = ["Zen <zen@zenoverflow.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/zenoverflow/brutalpywebui"
+keywords = ["web", "ui", "frontend", "backend", "asyncio", "websocket", "html5", "css", "javascript"]
+classifiers = [
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Internet :: WWW/HTTP :: HTTP Servers",
+    "Topic :: Software Development :: User Interfaces",
+    "Framework :: AsyncIO",
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+quart = "^0.19.4"
+hypercorn = "^0.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
